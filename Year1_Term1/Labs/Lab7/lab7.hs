@@ -1,0 +1,1 @@
+-- "leave" and "duration" are int variables. Leave represents what time you have to leave and duration represents how much time you need to get ready. When calling the function, you assign them values.

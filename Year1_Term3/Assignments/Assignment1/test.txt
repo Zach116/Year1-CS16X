@@ -1,0 +1,6 @@
+Oregon 100000 2
+Benton 53000 20000 250000 1 Corvallis
+Lane 8000 50000 150000 2 Eugene Springfield
+South_Carolina 300000 2
+Anderson 900000 23232 4343 2 Anderson Pendleton
+Pickens 3453 0981 122 2 Clemson Pickens

@@ -1,0 +1,36 @@
+All strings with at least one 'a' over the alphabet {a,b}
+S -> KDK
+K -> bK|lambda|aK
+D -> a
+
+All strings no consecutive 0's over the alphabet {0,1}
+S -> AB
+A -> 0C|lambda
+B -> 1B|lambda|1A
+C -> 1A
+
+Based on the grammar:
+S -> aS|aSbS|lambda
+Construct all the derivation trees for the following strings:
+
+aab:
+                        ___S____
+                       /  / \   \
+                       a  S  b  S
+                         / \    |
+                        a   S  lambda
+                            |
+                          lambda
+
+abaa:
+                        ___S___
+                       /  / \  \
+                       a  S  b  S
+                          |    / \ 
+                       lambda a   S
+                                 / \
+                                a   S
+                                    |
+                                  lambda
+
+                
